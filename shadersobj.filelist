@@ -1,4 +1,4 @@
-; 8/39370 (0%)
+; 9/39370 (0%)
 engine\shaders\obj\index.cso
 engine\shaders\obj\index.dep
 engine\shaders\obj\index.gso
@@ -7,3 +7,4 @@ engine\shaders\obj\index.pso
 engine\shaders\obj\index.rs
 engine\shaders\obj\index.vds
 engine\shaders\obj\index.vso
+engine\shaders\shaders.crc
