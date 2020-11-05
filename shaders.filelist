@@ -1,4 +1,4 @@
-; 760/775 (98%)
+; 774/775 (99%)
 engine\shaders\ambient.inc.fx
 engine\shaders\artisticconstants.inc.fx
 engine\shaders\bits.inc.fx
@@ -117,6 +117,8 @@ engine\shaders\meta\debugtext.fx
 engine\shaders\meta\debugtext.meta.xml
 engine\shaders\meta\decal.fx
 engine\shaders\meta\decal.meta.xml
+engine\shaders\meta\deferredfx\deferredfxantialias.fx
+engine\shaders\meta\deferredfx\deferredfxantialias.meta.xml
 engine\shaders\meta\deferredfx\deferredfxhair.fx
 engine\shaders\meta\deferredfx\deferredfxhair.meta.xml
 engine\shaders\meta\deferredfx\deferredfxskinsss.fx
@@ -176,6 +178,10 @@ engine\shaders\meta\framejobstate\framejobstate_gbufferalpha.fx
 engine\shaders\meta\framejobstate\framejobstate_gbufferalpha.meta.xml
 engine\shaders\meta\framejobstate\framejobstate_gbufferblended.fx
 engine\shaders\meta\framejobstate\framejobstate_gbufferblended.meta.xml
+engine\shaders\meta\framejobstate\framejobstate_gbufferdynamic.fx
+engine\shaders\meta\framejobstate\framejobstate_gbufferdynamic.meta.xml
+engine\shaders\meta\framejobstate\framejobstate_gbufferdynamicalpha.fx
+engine\shaders\meta\framejobstate\framejobstate_gbufferdynamicalpha.meta.xml
 engine\shaders\meta\framejobstate\framejobstate_gpgpuvisibility.fx
 engine\shaders\meta\framejobstate\framejobstate_gpgpuvisibility.meta.xml
 engine\shaders\meta\framejobstate\framejobstate_opaque.fx
@@ -341,6 +347,8 @@ engine\shaders\meta\posteffect\posteffect_antialias.fx
 engine\shaders\meta\posteffect\posteffect_antialias.meta.xml
 engine\shaders\meta\posteffect\posteffect_bloom.fx
 engine\shaders\meta\posteffect\posteffect_bloom.meta.xml
+engine\shaders\meta\posteffect\posteffect_bloomnextgen.fx
+engine\shaders\meta\posteffect\posteffect_bloomnextgen.meta.xml
 engine\shaders\meta\posteffect\posteffect_blur.fx
 engine\shaders\meta\posteffect\posteffect_blur.meta.xml
 engine\shaders\meta\posteffect\posteffect_blurgaussian2pass.fx
@@ -423,8 +431,12 @@ engine\shaders\meta\reflection_msaaresolve.fx
 engine\shaders\meta\reflection_msaaresolve.meta.xml
 engine\shaders\meta\resolve.fx
 engine\shaders\meta\resolve.meta.xml
+engine\shaders\meta\screenspacereflection.fx
+engine\shaders\meta\screenspacereflection.meta.xml
 engine\shaders\meta\sectorwatervisibilitytest.fx
 engine\shaders\meta\sectorwatervisibilitytest.meta.xml
+engine\shaders\meta\shadowmaskvolume.fx
+engine\shaders\meta\shadowmaskvolume.meta.xml
 engine\shaders\meta\shadowreceiverextents.fx
 engine\shaders\meta\shadowreceiverextents.meta.xml
 engine\shaders\meta\shadowvsm.fx
@@ -450,6 +462,8 @@ engine\shaders\meta\texturemaskhelper.fx
 engine\shaders\meta\texturemaskhelper.meta.xml
 engine\shaders\meta\tilecopy.fx
 engine\shaders\meta\tilecopy.meta.xml
+engine\shaders\meta\traffic.fx
+engine\shaders\meta\traffic.meta.xml
 engine\shaders\meta\vegetationdisplacement.fx
 engine\shaders\meta\vegetationdisplacement.meta.xml
 engine\shaders\meta\visibilitytest.fx

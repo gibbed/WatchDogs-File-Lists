@@ -1,4 +1,4 @@
-; 202/209 (96%)
+; 209/209 (100%)
 graphics\_materials\chumeau-m-20130731153119.material.bin
 graphics\_materials\chumeau-m-20130731153841.material.bin
 graphics\_materials\chumeau-m-20130731155834.material.bin
@@ -138,12 +138,16 @@ soundbinary\000de6ad.spk
 soundbinary\000de6ae.spk
 soundbinary\000de6af.spk
 soundbinary\000de6b0.spk
+soundbinary\000e54d0.spk
+soundbinary\000e54d4.spk
+soundbinary\000e54d8.spk
 soundbinary\000ec929.sbao
 soundbinary\000ec92a.spk
 soundbinary\000ec92b.spk
 soundbinary\000ec92f.spk
 soundbinary\000ec930.spk
 soundbinary\000ec933.spk
+soundbinary\000ec934.spk
 soundbinary\000ec958.spk
 soundbinary\000ec959.spk
 soundbinary\000ec95a.spk
@@ -195,9 +199,12 @@ soundbinary\0010f7ca.spk
 soundbinary\0010f7cd.spk
 soundbinary\0010f7d0.spk
 soundbinary\0010f7d5.spk
+soundbinary\00117ca2.spk
+soundbinary\00117ca6.sbao
 worlds\windy_city\generated\dlc\dlc_pill_people\combinedmovefile.bin
 worlds\windy_city\generated\dlc\dlc_pill_people\dlc_pill_people_depload.dat
 worlds\windy_city\generated\dlc\dlc_pill_people\dlc_pill_people_deploadnewparticles.rml
+worlds\windy_city\generated\dlc\dlc_pill_people\entitylibrary.fcb
 worlds\windy_city\generated\dlc\dlc_pill_people\entitylibrary_rt.fcb
 worlds\windy_city\generated\dlc\dlc_pill_people\spawnpointlist.xml
 worlds\windy_city\generated\wlu\wlu_data_07_p30ple_m07.xml.data.fcb

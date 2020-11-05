@@ -1,4 +1,4 @@
-; 10158/10237 (99%)
+; 10220/10237 (99%)
 credits\pc\credits.xml
 domino\library\common\checkpointrace.checkpointcontroller.debug.lua
 domino\library\common\checkpointrace.checkpointcontroller.lua
@@ -3290,6 +3290,8 @@ domino\user\windycity\family_missions\act_04\family_01\a04_f01.a04_f01_reinforce
 domino\user\windycity\family_missions\act_04\family_01\a04_f01.a04_f01_spawnaicar.debug.lua
 domino\user\windycity\family_missions\act_04\family_01\a04_f01.a04_f01_spawnaicar.lua
 domino\user\windycity\family_missions\act_04\family_01\a04_f01.globals.lua
+domino\user\windycity\family_missions\act_04\family_02\a04_f02.a04_f02.debug.lua
+domino\user\windycity\family_missions\act_04\family_02\a04_f02.a04_f02.lua
 domino\user\windycity\family_missions\act_04\family_02\a04_f02.a04_f02_activation.debug.lua
 domino\user\windycity\family_missions\act_04\family_02\a04_f02.a04_f02_activation.lua
 domino\user\windycity\family_missions\act_04\family_02\a04_f02.a04_f02_barragesuperbox.debug.lua
@@ -5488,10 +5490,12 @@ engine\settings\defaultrealtreeconfig.xml
 engine\settings\defaultrenderconfig.xml
 engine\settings\defaultsoundconfig.xml
 engine\settings\defaultthreadingconfig.xml
+engine\settings\durango\defaultrealtreeconfig.xml
 engine\settings\durango\defaultrenderconfig.xml
 engine\settings\durango\playerawards.xml
 engine\settings\durango\playerpresence.xml
 engine\settings\gpudatabase.xml
+engine\settings\orbis\defaultrealtreeconfig.xml
 engine\settings\orbis\playerawards.xml
 engine\settings\orbis\playerpresence.xml
 engine\settings\ps3\defaultengineconfig.xml
@@ -7009,6 +7013,7 @@ ui\fire\bin\resultsapp.feu
 ui\fire\bin\savegamedisclaimer.feu
 ui\fire\bin\shelly.feu
 ui\fire\bin\songsneak.feu
+ui\fire\bin\startcalibration.feu
 ui\fire\bin\startscreen.feu
 ui\fire\bin\uplaypopups.feu
 ui\fire\bin\votenext.feu
@@ -7654,6 +7659,16 @@ ui\fire\sources\textures\nexus_items\cashrun\locations_theloop6_on.xbt
 ui\fire\sources\textures\nexus_items\cashrun\locations_theloop7_on.xbt
 ui\fire\sources\textures\nexus_items\cashrun\locations_theloop8_on.xbt
 ui\fire\sources\textures\nexus_items\cashrun\locations_theloop9_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks1_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks10_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks2_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks3_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks4_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks5_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks6_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks7_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks8_on.xbt
+ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_brandondocks9_on.xbt
 ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_madmile1_on.xbt
 ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_madmile10_on.xbt
 ui\fire\sources\textures\nexus_items\cashrun\popuptile\locations_madmile2_on.xbt
@@ -7940,6 +7955,7 @@ ui\fire\sources\textures\nexus_items\cityhotspots\locationspopup_colour\98_birth
 ui\fire\sources\textures\nexus_items\cityhotspots\locationspopup_colour\99_hanson park_club_massacre.xbt
 ui\fire\sources\textures\nexus_items\cityhotspots\locationspopup_colour\99_hanson_park_club_massacre.xbt
 ui\fire\sources\textures\nexus_items\collectibles\nexus_collectible_race1.xbt
+ui\fire\sources\textures\nexus_items\companionboard\default.xbt
 ui\fire\sources\textures\nexus_items\companionboard\road_signdot_01_d.xbt
 ui\fire\sources\textures\nexus_items\contracts\missions\decoy1.xbt
 ui\fire\sources\textures\nexus_items\contracts\missions\tilebg_decoy_1.xbt
@@ -8050,6 +8066,12 @@ ui\fire\sources\textures\nexus_items\contracts\missionspopup\detailsbg_transport
 ui\fire\sources\textures\nexus_items\contracts\missionspopup\detailsbg_transporter_7.xbt
 ui\fire\sources\textures\nexus_items\contracts\missionspopup\detailsbg_transporter_8.xbt
 ui\fire\sources\textures\nexus_items\contracts\missionspopup\detailsbg_transporter_9.xbt
+ui\fire\sources\textures\nexus_items\credits\actra_logo.xbt
+ui\fire\sources\textures\nexus_items\credits\bink_logo.xbt
+ui\fire\sources\textures\nexus_items\credits\dolby_logo.xbt
+ui\fire\sources\textures\nexus_items\credits\dts_logo.xbt
+ui\fire\sources\textures\nexus_items\credits\flash_logo.xbt
+ui\fire\sources\textures\nexus_items\credits\havok_logo.xbt
 ui\fire\sources\textures\nexus_items\credits\watchdogs_logo.xbt
 ui\fire\sources\textures\nexus_items\hud\deadavatar.xbt
 ui\fire\sources\textures\nexus_items\hud\deadavatar_antialias.xbt
@@ -8380,6 +8402,7 @@ ui\fire\sources\textures\nexus_items\rewards\attractor.xbt
 ui\fire\sources\textures\nexus_items\rewards\attractoried.xbt
 ui\fire\sources\textures\nexus_items\rewards\battery.xbt
 ui\fire\sources\textures\nexus_items\rewards\bigbankaccount.xbt
+ui\fire\sources\textures\nexus_items\rewards\blackout.xbt
 ui\fire\sources\textures\nexus_items\rewards\bullet.xbt
 ui\fire\sources\textures\nexus_items\rewards\cash.xbt
 ui\fire\sources\textures\nexus_items\rewards\chematics.xbt
@@ -8395,6 +8418,7 @@ ui\fire\sources\textures\nexus_items\rewards\hideout.xbt
 ui\fire\sources\textures\nexus_items\rewards\ied.xbt
 ui\fire\sources\textures\nexus_items\rewards\illegalshop.xbt
 ui\fire\sources\textures\nexus_items\rewards\iop.xbt
+ui\fire\sources\textures\nexus_items\rewards\jamcom.xbt
 ui\fire\sources\textures\nexus_items\rewards\launchers.xbt
 ui\fire\sources\textures\nexus_items\rewards\location.xbt
 ui\fire\sources\textures\nexus_items\rewards\notoriety.xbt
@@ -8426,6 +8450,7 @@ ui\fire\sources\textures\nexus_items\shelly\appicons\audiologs.xbt
 ui\fire\sources\textures\nexus_items\shelly\appicons\carondemand.xbt
 ui\fire\sources\textures\nexus_items\shelly\appicons\cashrun.xbt
 ui\fire\sources\textures\nexus_items\shelly\appicons\challenges.xbt
+ui\fire\sources\textures\nexus_items\shelly\appicons\characterstats.xbt
 ui\fire\sources\textures\nexus_items\shelly\appicons\cityhotspot.xbt
 ui\fire\sources\textures\nexus_items\shelly\appicons\cityhotspots.xbt
 ui\fire\sources\textures\nexus_items\shelly\appicons\citymap.xbt
@@ -8577,6 +8602,26 @@ ui\fire\sources\textures\nexus_items\shop\aiden\aiden_kit_retro.xbt
 ui\fire\sources\textures\nexus_items\shop\aiden\aiden_kit_spidertank.xbt
 ui\fire\sources\textures\nexus_items\shop\aiden\aiden_kit_viceroys.xbt
 ui\fire\sources\textures\nexus_items\shop\aiden\aiden_kit_whitehat.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_01.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_02.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_03.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_04.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_05.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_06.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_07.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_08.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_09.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_10.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_11.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_12.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_13.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_14.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_15.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_16.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_17.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_18.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_19.xbt
+ui\fire\sources\textures\nexus_items\shop\aiden\old\aiden_kit_20.xbt
 ui\fire\sources\textures\nexus_items\shop\antiquecoinnormal.xbt
 ui\fire\sources\textures\nexus_items\shop\antiquecoinrare.xbt
 ui\fire\sources\textures\nexus_items\shop\battery.xbt
@@ -9136,14 +9181,18 @@ ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_aiden.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_bedbug.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_blume.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_charlotte.xbt
+ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_clara.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_damien.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_dedsec.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_iraq.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_maurice.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_quinn.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_rose.xbt
+ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_rushmore.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_serialkiller.xbt
+ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_tbone.xbt
 ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_weapon.xbt
+ui\fire\sources\textures\nexus_items\songs\audiodrops\audiodrop_wkz.xbt
 ui\fire\sources\textures\nexus_items\songs\awake_jc_brooks.xbt
 ui\fire\sources\textures\nexus_items\songs\bryan_dohetry_cluj_napoca.xbt
 ui\fire\sources\textures\nexus_items\songs\bs191_jcb_cvr.xbt
@@ -9506,7 +9555,10 @@ ui\fire\sources\textures\nexus_items\tutorials\_92_screenshot_missing_person_(se
 ui\fire\sources\textures\nexus_items\tutorials\_93_screenshot_cityhotspots.xbt
 ui\fire\sources\textures\nexus_items\tutorials\_screenshot_ugc.xbt
 ui\fire\sources\textures\nexus_items\tutorials\ctos_box.xbt
+ui\fire\sources\textures\nexus_items\tutorials\ctos_exploit.xbt
+ui\fire\sources\textures\nexus_items\tutorials\dedsec_fieldguide.xbt
 ui\fire\sources\textures\nexus_items\tutorials\default.xbt
+ui\fire\sources\textures\nexus_items\tutorials\hacking.xbt
 ui\fire\sources\textures\nexus_items\tutorials\mp_02_perk_appscavenger.xbt
 ui\fire\sources\textures\nexus_items\tutorials\mp_03_perk_durable.xbt
 ui\fire\sources\textures\nexus_items\tutorials\mp_05_perk_batteringram.xbt
@@ -9570,6 +9622,16 @@ ui\fire\sources\textures\nexus_items\tutorials\screenshot_flashbacks.xbt
 ui\fire\sources\textures\nexus_items\tutorials\screenshot_human_traffic_lead.xbt
 ui\fire\sources\textures\nexus_items\tutorials\screenshot_multiline.xbt
 ui\fire\sources\textures\nexus_items\tutorials\screenshot_nudge.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_1.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_10.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_2.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_3.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_4.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_5.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_6.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_7.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_8.xbt
+ui\fire\sources\textures\nexus_items\uplay\uplayimage_9.xbt
 ui\fire\sources\textures\nexus_items\vote\dc_brandondocks_001.xbt
 ui\fire\sources\textures\nexus_items\vote\dc_brandondocks_002.xbt
 ui\fire\sources\textures\nexus_items\vote\dc_loop_001.xbt
